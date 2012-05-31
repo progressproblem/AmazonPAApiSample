@@ -105,7 +105,6 @@ public class ItemLookupSample {
         params.put("Operation", "ItemLookup");
         params.put("ItemId", ITEM_ID);
         params.put("ResponseGroup", "Small");
-        params.put("AssociateTag", "progressprobl-22");
 
         requestUrl = helper.sign(params);
         System.out.println("Signed Request is \"" + requestUrl + "\"");
